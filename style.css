@@ -1,0 +1,62 @@
+@media only screen and (min-width: 481px) {
+  .content {
+    width: 100%;
+  }
+  .body {
+    column-count: 3;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .body {
+    column-count: 1;
+  }
+}
+
+header {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FEF5E7;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #F2D7D5;
+  color: #FFFFFF;
+  position: fixed;
+  bottom: 0;
+}
+
+.content img {
+  width: 50px;
+  margin: auto;
+}
+
+.nav-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 20px;
+  background-color: #FEF5E7;
+}
+
+.nav-links {
+  display: none;
+}
+
+.page-title {
+  font-weight: bolder;
+  color: #A9DFBF;
+  margin: auto;
+}
+
+.pattern-container {
+  border-radius: 25px;
+}
